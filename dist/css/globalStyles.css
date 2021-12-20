@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+}
+
+.remove {
+  display: none;
+}
+
+.form-extras {
+  width: 40vw;
+}
+
+.underline {
+  height: .5rem;
+  width: 40%;
+  border-radius: 5px;
+  background: #0d6efd;
+  background: linear-gradient(97deg, #0d6efd 0%, #14e483 100%);
+}
+
+.card-hover {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.card-hover:hover {
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 0;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  bottom: 0px;
+}
+/*# sourceMappingURL=globalStyles.css.map */
